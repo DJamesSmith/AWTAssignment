@@ -1,0 +1,85 @@
+.header{
+   /* padding-top: 10px;
+   padding-left:200px;
+   padding-bottom: 10px;
+   background-image: linear-gradient(to bottom right,rgb(245,14,0), #8B0000,rgb(245,14,0));
+*/font-size:25px;
+
+   color: rgb(255,255,255)
+}
+.HEADFLOAT{
+    float: RIGHT;
+    padding-right: 200px;
+    font-size: 40px;
+}
+.HEADFLOAT i{
+    padding: 5px;
+    color: rgb(255,255,255)
+
+}
+
+#EDITOR{
+  font-size: 36px;
+  color: rgb(234,0,75);
+}
+
+h1{
+  font-family: 'Metal Mania', cursive;
+}
+
+input[type=email]
+{
+
+  background-color: #D5DBDB;
+  width: 450px;
+  height: 50px;
+  padding-left: 10px;
+
+}
+/*input[type=submit]
+{
+  border-radius: 8px;
+}
+*/
+.button3{
+  border-radius: 10px;
+}
+a:hover{
+  color:purple;
+}
+#learn{
+  font-size: 50px;
+  font-family: 'Shadows Into Light', cursive;
+}
+#paragraph{
+  font-size: 20px;
+}
+#play{
+  padding-top: 120px;
+  font-size: 50px;
+}
+.footer{
+  background: black;
+  color: white;
+}
+ul{
+font-size:20px;
+list-style-type:none;
+margin: 0;
+padding: 0;
+overflow:hidden;
+}
+li{
+padding-left:20px;
+}
+li a{
+color:white;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+transition:all 1s;
+}
+li a:hover:not(.active){
+background-color:white;
+/*width:100px;*/
+}
